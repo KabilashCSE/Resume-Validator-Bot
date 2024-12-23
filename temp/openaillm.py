@@ -528,7 +528,7 @@ def initialize_openai():
     """Initialize OpenAI client with hardcoded API key"""
     try:
         # Hardcoded OpenAI API key - Replace with your actual key
-        api_key = "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"  # Replace this with your actual OpenAI API key
+        api_key = "#"
         openai.api_key = api_key  # Set the API key for the OpenAI module
         return openai  # Return the openai module itself
     except Exception as e:
